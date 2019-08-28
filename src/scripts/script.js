@@ -62,7 +62,7 @@ $(function() {
       if (contentsArr[1][0] <= windowScrolltop -10 && contentsArr[1][1] >= windowScrolltop && flag1==0) {
         var num = 0;
         var tgt = 200;
-        var speed = 10;
+        var speed = 30;
         setInterval(function(){
           if(num <= tgt){
 	          document.getElementById("count").innerText = num;
