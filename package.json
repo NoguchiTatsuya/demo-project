@@ -5,8 +5,8 @@
   "description": "HTML Boilerplate",
   "main": "index.js",
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "gulp build",
     "dev": "gulp run:dev",
     "prod": "gulp run:prod"
